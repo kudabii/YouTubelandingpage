@@ -1,0 +1,103 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  border-bottom-width:1px ;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 0.144);
+
+}
+
+.left-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.middle-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 2;
+  margin-right: 45px;
+  max-width: 400px;
+}
+.right-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+
+}
+
+.hamburger-menu{
+  width: 26px;
+  height: 26px;
+  margin-left: 24px;
+  margin-right: 0;
+}
+
+.youtube-logo{
+  width: 155px;
+}
+
+.search-button{
+  background: transparent;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+  margin-left: -3px;
+}
+
+.voice-button{
+  width: 20px;
+  background: none;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+  margin-left: -4px;
+}
+
+.search{
+  flex: 1;
+  height: 35px;
+  background-color: black;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding-left: 12px;
+  font-size: 16px;
+  color: white; 
+  width: 0;
+  
+}
+
+.search::placeholder{
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(187, 186, 186);
+}
+
+.alert{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.cruise-logo{
+  width: 30px;
+  margin-left: -2px;
+}
+
+.notiffss{
+  width: 36px;
+  height: 36px;
+  margin-right: px;
+  margin-top: 2px;
+}
